@@ -1,0 +1,471 @@
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(cover.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	box-sizing: border-box;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height: 100vh
+	background-size: cover;
+	background-position: center;
+
+
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	width: 220px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li::hover::after{
+	width: 100%;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+}
+.content h1{
+	font-size: 40px;
+	margin-top: 80px;
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-height: 25px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+span{
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+button:hover{
+	border:none;
+}
+.bottom{
+	width: 100%;
+	position: bottom;
+	top:0;
+	bottom: 10;
+	text-align: center;
+	color: #fff;
+}
+.bottom h2{
+	font-size: 10px;
+	margin-top: 550px;
+}
+.bottom p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-height: 25px;
+}
+#content{
+	width: 100%;
+	position: absolute;
+	top: 90%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+}
+#content h1{
+	font-size: 30px;
+	margin-top: 90px;
+}
+#content p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-height: 25px;
+}
+.pictures{
+	float: left;
+	width: 25%;
+	padding: 15px;
+}
+.picture img{
+	height: 100px;
+	margin-left: 10px;
+	float: left;
+	padding: 20px;
+}
+.student1{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 3%;
+}
+.student2{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 13%;
+}
+.student3{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 22%;
+}
+.student4{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 32%;
+}
+.student5{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 42%;
+}
+.student6{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 52%;
+}
+.student7{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 61%;
+}
+.student8{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 71%;
+}
+.student9{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 81%;
+}
+.student10{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 91%;
+}
+.student11{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 3%;
+}
+.student12{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 13%;
+}
+.student13{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 22%;
+}
+.student14{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 32%;
+}
+.student15{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 42%;
+}
+.student16{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 52%;
+}
+.student17{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 61%;
+}
+.student18{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 71%;
+}
+.student19{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 81%;
+}
+.student20{
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 91%;
+}
+.student21{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 3%;
+}
+.student22{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 13%;
+}
+.student23{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 22%;
+}
+.student24{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 32%;
+}
+.student25{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 42%;
+}
+.student26{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 52%;
+}
+.student27{
+	width: 100%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 61%;
+}
+.header{
+	width: 80%;
+	position: absolute;
+	top: 15%;
+	transform: translateY(-50%);
+	text-align: left;
+	color: #fff;
+	margin-left: 30%;
+}
+.header h3{
+	font-size: 20px;
+	margin-top: 2px;
+}
+.header p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-height: 5px;
+}
+#about{
+	width: 80%;
+	position: absolute;
+	top: 105%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+	margin-left: 10%;
+}
+#about h1{
+	font-size: 20px;
+	margin-top: 50px;
+}
+#about p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-height: 25px;
+	text-align: left;
+}
+#help{
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+	margin-left: 10%;
+}
+#help h1{
+	font-size: 20px;
+	margin-top: 50px;
+}
+#help p{
+	margin: 20px auto;
+	font-weight: 80;
+	font-height: 25px;
+	text-align: left;
+}
+#learn{
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+	margin-left: 10%;
+}
+#learn h1{
+	font-size: 20px;
+	margin-top: 50px;
+}
+#learn p{
+	margin: 20px auto;
+	font-weight: 50;
+	font-height: 35px;
+}
+#learn li{
+	text-align: left;
+}
